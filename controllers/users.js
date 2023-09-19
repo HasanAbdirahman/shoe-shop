@@ -4,7 +4,6 @@ var bcrypt = require("bcrypt");
 
 async function signup(req, res, next) {
   try {
-    console.log("signup");
   } catch (error) {
     console.log(error);
   }
